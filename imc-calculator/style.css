@@ -52,6 +52,10 @@ section{
     height: 70px;
     border: none;
     border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #botaoCalcular{
