@@ -1,4 +1,45 @@
-const calcular = window.document.querySelector('#botaocalcular')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const calcular = window.document.querySelector('#botaocalcular')
 
 function Calcular(){
     const nomebruto = window.document.querySelector('#nome')
@@ -17,4 +58,4 @@ function Calcular(){
     }else{
     
     }
-}
+}*/
