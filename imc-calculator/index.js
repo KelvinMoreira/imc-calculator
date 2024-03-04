@@ -12,33 +12,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*const calcular = window.document.querySelector('#botaocalcular')
 
 function Calcular(){
