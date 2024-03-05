@@ -1,5 +1,20 @@
+let calcular = window.document.querySelector("#botaoCalcular")
+function Calcular(){
+    let nomebruto = window.document.querySelector("#inputNome")
+    let alturabruta = window.document.querySelector("#inputAltura")
+    let pesobruto = window.document.querySelector("#inputPeso")
+    let res = window.document.querySelector("#areaResposta")
 
-
+    if(nomebruto !== '' ){
+        let nome = nomebruto.value
+        let altura = Number(alturabruta.value)
+        let peso = Number(pesobruto.value)
+        let div1 = peso / altura
+        let valorfinal = div1 / altura
+        let IMC = Number(valorfinal.toFixed(2))
+        res.innerHTML = `Olá, ${nome}, seu peso atual é ${peso}Kg. <br> O seu IMC é ${IMC}`
+    }
+}
 
 
 
